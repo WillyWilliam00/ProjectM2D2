@@ -21,8 +21,8 @@ string = è una variabile "stringa", più semplicemente si tratta di una variabi
 ad esempio: "William" è una variabile stringa
 number = è una variabile "numero", si tratta semplicemente di un numero (che può essere intero o con la virgola),in questo caso la variabile NON è tra " ", altrimenti diventa una stringa!
 Boolean: è una variabile che può essere vera o falsa
-Null: è una variabile vuota (come se fosse un contenitore vuoto)
-undefined: è una variabile con valore non definito (come se prendessi un contenitore bendato, non conosci il contenuto)
+Null: è una variabile nulla (come se fosse un contenitore vuoto)
+undefined: è una variabile con valore non definito (come se prendessi un contenitore bendato, non  conosci il contenuto)
 
 */
 
@@ -39,7 +39,7 @@ Quando dobbiamo raccogliere molte informazioni per elaborare un progetto comples
 creiamo una variabile con il nome del progetto e diamo delle coppie chiave-valore con tutte le informazioni che ci servono per quel determinato progetto.
 (chiave->nome di una info specifica valore-> appunto il valore di quella info) */
 
-let MeStesso = {
+const MeStesso = {
     name:"William",
     surname:"Costa",
     hobby:"Coding",
