@@ -107,8 +107,8 @@ let name1 = "john"
 
 let name2 = "John"
 
-console.log("Es7",name1!==name2)
+console.log("Es7",name1===name2)
 
 name2 = name2.toLocaleLowerCase()
 
-console.log("Es7",name1!==name2)
+console.log("Es7",name1===name2)
