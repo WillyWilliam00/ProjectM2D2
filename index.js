@@ -36,7 +36,7 @@ undefined: è una variabile con valore non definito (come se prendessi un conten
 
 Quando dobbiamo raccogliere molte informazioni per elaborare un progetto complesso (come ad esempio l'anagrafica di qualcuno) possiamo utilizzare lo structural type Object,
 
-creiamo una variabile con il nome del progetto e diamo delle coppie chiave-valore con tutte le informazioni che ci servono per quel determinato progetto.
+creiamo una variabile/costante con il nome del progetto e diamo delle coppie chiave-valore con tutte le informazioni che ci servono per quel determinato progetto.
 (chiave->nome di una info specifica valore-> appunto il valore di quella info) */
 
 const MeStesso = {
